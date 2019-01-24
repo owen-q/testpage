@@ -7,21 +7,7 @@ const myButton = (
 </div>
 );
 
-class Header extends React.Compoent {
-    constructor(props){
-        super(props);
-    }
 
-    componentDidMount
-
-    render(){
-        return(
-            <div>
-                <h1>Header</h1>
-            </div>
-        );
-    };
-}
 const MyBody = () => {
     return (
         <div>
@@ -43,7 +29,7 @@ const Footer = () => {
 
 const app = (
     <div style={{display:'flex', flexDirection:'column', justifyContent: 'center', alignItems: 'center'}}>
-        <Header/>
+     
         <MyBody/>
         <Footer/>
     </div>
